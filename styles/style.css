@@ -1,0 +1,138 @@
+
+/* fira sans styles */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  
+/* Actual Styles */
+body{
+    margin:0;
+    padding:0;
+
+}
+
+/* shared styles */
+
+.btn-primary{
+    font-weight:600;
+    font-size: 18px;
+    border-radius: 8px;
+    color:white;
+    background-color: #006A50;
+}
+
+.btn-secondary{
+
+}
+
+.descriptions{
+    font-weight:300;
+    font-size: 16px;
+    color: #0e0e0e;
+
+}
+
+/* main styles */
+
+/* Navigation styles */
+nav{
+    margin: auto 160px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:0px;
+}
+nav li{
+    
+    list-style-type: none;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.btn-nav{
+    font-size: 18px;
+    width: 116px;
+    height: 52px;
+    color: #006A50;
+    background-color: #fff;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+}
+/* main stayls */
+
+/* banner styles */
+.hero-container{
+
+    padding: 0;
+    margin:20px 160px 80px;
+    background-color: #C6E4D6;
+    background-size: cover;
+    background-position: center;
+    width: 1280px;
+    height: 560px;
+    
+    border-radius: 24px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    align-items: center;
+   justify-items: center;
+   
+}
