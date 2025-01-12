@@ -59,6 +59,7 @@
 body{
     margin:0;
     padding:0;
+    background-color: #f1f1f3b9;
 
 }
 
@@ -79,7 +80,7 @@ body{
 .descriptions{
     font-weight:300;
     font-size: 16px;
-    color: #0e0e0e;
+    color: #0e0e0eb2;
 
 }
 
@@ -131,8 +132,118 @@ nav li{
 .banner-container{
     display: flex;
     justify-content: space-between;
-    padding: 60px 80px;
+    padding: 60px 50px;
     align-items: center;
    justify-items: center;
    
+}
+.banner-text{
+    text-align: left;
+    margin-right: 50px;
+    height: 320px;
+}
+
+.banner-1st-text{
+    font-size: 24px;
+    color: #0e0e0e79;
+    margin-bottom: 16px;
+
+}
+
+.banner-2nd-text{
+    font-size: 57px;
+    margin: 0;
+}
+
+.btn-banner{
+margin-top:20px;
+width: 270px;
+height: 56px;
+}
+
+.banner-img{
+    margin-left: 
+}
+
+/* vision styles */
+
+.vision-container{
+    text-align: left;
+    margin:0 160px 80px 160px;
+  
+    
+    
+    
+}
+
+.vision-title{
+    font-size: 40px;
+
+}
+ 
+.vision-card-container{
+    display:flex;
+    justify-content: space-evenly;
+    margin:32px 0;
+
+}
+
+.vision-card{
+  background-color: #C6E4D6;
+  border-radius: 16px;
+  margin-right:24px;
+  padding: 32px;
+  
+
+}
+
+.vidion-card-img{
+  width: 64px;
+  height: 64px;
+}
+
+.vision-card-description{
+  margin-bottom: 34px;
+}
+
+.vision-btn1{
+  
+    font-size: 16px;
+    border-radius: 8px;
+    color:#ffffff;
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border:none;
+}
+
+.vision-btn2{
+  
+  font-size: 16px;
+  border-radius: 8px;
+  color:#ffffff;
+  background-color: #09A15C;
+  padding: 11px 20px;
+  border:none;
+}
+
+.vision-btn3{
+  
+  font-size: 16px;
+  border-radius: 8px;
+  color:#ffffff;
+  background-color: #FFC239;
+  padding: 11px 20px;
+  border:none;
+}
+
+.vision-speech{
+  background-color: #ffffff;
+  padding:48px 24px;
+  border:none;
+  border-radius: 16px;
+}
+
+.vision-speech-description{
+  background-image: url(/assets/quote-bg.png);
+  background-repeat: no-repeat;
 }
