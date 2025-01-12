@@ -74,8 +74,17 @@ body{
     background-color: #006A50;
 }
 
+.btn-primary:hover{
+  background-color: #333;
+  
+}
+
 .btn-secondary{
   padding: 13px 26px;
+}
+
+.btn-secondary:hover{
+  background-color: purple;
 }
 
 .descriptions{
@@ -237,6 +246,15 @@ height: 56px;
   border:none;
 }
 
+.vision-btn1:hover{
+  background-color: rgb(165, 80, 95);
+}
+.vision-btn2:hover{
+  background-color: rgb(165, 80, 95);
+}
+.vision-btn3:hover{
+  background-color: rgb(165, 80, 95);
+}
 .vision-speech{
   background-color: #ffffff;
   padding:48px 24px;
@@ -329,5 +347,87 @@ height: 56px;
     font-size: 0.8em;
     color: #777;
     line-height: 1.3;
+}
+/* donation section */
+
+#donate {
+  padding: 40px 0;
+}
+.donate-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.donate-section h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+    color: #333;
+}
+.donate-section p{
+     color: #555;
+      line-height: 1.5;
+    margin-bottom: 20px;
+}
+.donate-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.donate-card {
+  display: flex;
+  flex: 1;
+  padding: 30px 20px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#0e0e0edd;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card-1 {
+  background-color: #e3f2fd;
+  width: 240px;
+  height: 110px;
+}
+.card-2 {
+  background-color: #bbdefb;
+  width: 252
+  height: 110px;
+}
+.card-3 {
+  background-color: #90caf9;
+  width: 243px;
+  height: 110px;
+}
+.card-4 {
+  background-color: #64b5f6;
+  width: 264px;
+  height: 110px;
+}
+.donate-card:hover {
+  background-color: #c5cae9;
+}
+.donate-input {
+  text-align: center;
+ 
+}
+.donate-input input {
+  display: block;
+  width: 1032px;
+  height: 64px;
+  padding: 0 75px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.donate-input input:focus {
+  outline: none;
+  border-color: #00bcd4;
 }
 
